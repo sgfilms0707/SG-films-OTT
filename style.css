@@ -143,3 +143,18 @@ footer {
         font-size: 0.6rem; /* Reduce font size for smaller screens */
     }
 }
+.play-now-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Stencil Std', sans-serif; /* Add Stencil Std font */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .play-now-link:hover {
+    background-color: #3e8e41; /* Darker Green on hover */
+  }
